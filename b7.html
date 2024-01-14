@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = +prompt("Nhập số cần kiểm tra:");
+var sum = 0;
+
+for (let i = 1; i <= a / 2; i++) {
+  if (a % i === 0) {
+    sum += i;
+  }
+}
+
+if (sum === a) {
+  console.log(a + " là số hoàn hảo.");
+} else {
+  console.log(a + " không phải là số hoàn hảo.");
+}
+    </script>
+</body>
+</html>
